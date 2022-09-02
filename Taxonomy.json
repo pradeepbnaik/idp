@@ -1,0 +1,80 @@
+{
+    "DocumentTypes":[
+        {
+            "DocumentType":"SLK_Resume",
+            "Fields":[
+                {
+                    "FieldName" : "Name",
+                    "Type" : "Text"
+                },
+                {
+                    "FieldName" : "Age",
+                    "Type" : "Text"
+                },
+                
+                {
+                    "FieldName" : "Place",
+                    "Type" : "Text"
+                },
+                {
+                    "FieldName" : "Skills",
+                    "Type" : "Text"
+                },
+                {
+                    "FieldName" : "Designation",
+                    "Type" : "Text"
+                },
+                {
+                    "FieldName" : "Projects",
+                    "Type" : "Text"
+                }
+            ]
+        },
+        {
+            "DocumentType":"Invoices",
+            "Fields":[
+                {
+                    "FieldName" : "Invoice Number",
+                    "Type" : "Text"
+                },
+                {
+                    "FieldName" : "Customer Name",
+                    "Type" : "Text"
+                },
+                {
+                    "FieldName" : "Address",
+                    "Type" : "Text"
+                },
+                {
+                    "FieldName" : "Phone",
+                    "Type" : "Text"
+                },
+                {
+                    "FieldName" : "Total",
+                    "Type" : "Text"
+                }
+            ]
+        },
+        {
+            "DocumentType":"Tax Form",
+            "Fields":[
+                {
+                    "FieldName" : "Form Number",
+                    "Type" : "Text"
+                },
+                {
+                    "FieldName" : "Name",
+                    "Type" : "Text"
+                },
+                {
+                    "FieldName" : "Address",
+                    "Type" : "Text"
+                },
+                {
+                    "FieldName" : "Phone",
+                    "Type" : "Text"
+                }
+            ]
+        }
+    ]
+}
